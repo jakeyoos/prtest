@@ -1,5 +1,5 @@
 # PRELIMINARIES #
-connection: "thelook"
+connection: "thelook_mysql"
 
 include: "*.view"
 include: "*.dashboard"
@@ -10,6 +10,7 @@ label: "The Look"
 
 ###HERE's A Change#####
 ###Here's a different change ###
+##changing the other way ###
 
 explore: order_items {
   join: orders {
